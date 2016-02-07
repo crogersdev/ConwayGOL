@@ -191,9 +191,7 @@ int main(void)
   srand((unsigned int)time(NULL));
   Board<Cell> board(BOARD_H, BOARD_W);
 
-  //board.draw();
-  //updateBoard(board);
-  //board.draw();
-
-  cout << "hey there everyone" << endl << "what's up?\rhow are you?\n";
+  board.draw();
+  updateBoard(board);
+  board.draw();
 }
